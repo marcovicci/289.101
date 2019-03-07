@@ -9,6 +9,26 @@
         
         /* https://developer.mozilla.org/Learn/CSS/Introduction_to_CSS/Combinators_and_multiple_selectors#Combinators_and_selector_lists */
         /* WRITE YOUR CSS HERE */
+        /* Makes list items that are children of .oranges violet */
+        .oranges li {
+            color:violet;
+        }
+        /* Makes a paragraph that is a direct child of a div red */
+        div > p {
+            color:red;
+        }
+        /* Makes a paragraph that follows another paragraph blue */
+        p + p {
+            color:blue;
+        }
+        /* Makes an unordered list that is a sibling of a paragraph orange */
+        p ~ ul {
+            color:orange;
+        }
+        /* Makes emphasized text that is a direct child of a list item that is a child of a div pink. There's a mouthful!! */
+        div li > em {
+            color:pink;
+        }
 
     </style>
 </head>
