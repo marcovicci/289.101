@@ -2,6 +2,8 @@
 
 d* { outline: red 1px solid; } 
 
+/* a tag selector refers to an existing element in the html, like body.
+i had no idea you could use multiple background images under the same selector, or that the second value in font-family was the default font to fall back on!*/
 body {
     background-color: #82DDB5;
     background-image: url('img/illustration.gif'), url('img/texture.jpg');
@@ -20,6 +22,7 @@ body {
     padding: 20px 0;
     text-align: center;
     word-spacing: 2em;
+    /* using ems causes the spacing to scale with your font size */
 }
 
 #header {
@@ -45,4 +48,132 @@ body {
     font-weight: bold;
     margin-top: 25px;
     padding: 15px 30px;
+}
+
+#what {
+    background:rgb(199,238,221,0.9); 
+    color:#347788; 
+    text-align:center;
+    margin-top: 300px;
+    padding-top:30px;
+    padding-bottom:30px;
+    line-height: 1.6em;
+}
+#what p {
+    width: 50%;
+    margin-left: 25%;
+    text-align: left;
+}
+
+#what h1, #why h1 {
+    font-weight: 900;
+}
+
+#what h1 + p {
+    font-size: 1.2em;
+}
+
+#what h2 {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#sponsor_logos {
+    width: 50%;
+    padding-left: 40px;
+}
+
+#sponsor_logos img {
+    width: 200px;
+}
+
+#why {
+    background:rgb(182, 234, 211); 
+    color:#347788; 
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align:center;
+    line-height: 1.2em;
+}
+#why p {
+    width: 50%;
+    margin-left: 25%;
+    font-size: 0.8em;
+    font-weight: 600;
+    text-align: left;
+}
+
+#where {
+    background-image: url(img/map.gif);
+    background-position: center;
+    color:#BB4488; 
+    padding-top: 30px;
+    text-align:center;
+    line-height: 1.2em;
+    padding-bottom:300px;
+}
+
+#where p {
+    font-weight: 1000;
+    text-align:right;
+    margin-right:25%;
+    font-size: 0.8em;
+    line-height:1.0em;
+}
+
+#when {
+    background-color:rgb(67,153,152);
+    background-image: url(img/wires.png);
+    background-repeat: repeat;
+    background-position: left top;
+    background-size: 450px;
+    color:#fff;
+    padding-top:30px;
+    padding-bottom:30px;
+    text-align:center;
+    line-height:1.0em;
+}
+
+#when h3 {
+    border-top: 2px dashed;
+    padding: 10px;
+}
+
+#when h1 {
+    padding-bottom: 20px;
+}
+
+#when ul {
+    text-align: left;
+    width: 50%;
+    margin-left: 25%;
+    font-size: 0.85em;
+}
+
+#who {
+    background:#F5F5F5;
+    padding-top: 30px;
+    text-align:center;
+    line-height: 1.0em;
+    padding-bottom:30px;
+    color:#347788; 
+}
+
+#who p {
+    width: 50%;
+    margin-left: 25%;
+    text-align: left;
+    font-weight: 600;
+}
+
+#footer {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+#footer img {
+    width: 50px;
 }
