@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+    <html>
+    
+        <head>
+            
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1"> 
+            <link rel="stylesheet" href="css/bootstrap.min.css">
+            <title>Bootstrap Layout 2</title>
+            
+            <style>
+            
+                * { outline: #FFF solid 6px; }
+                
+                .blue {
+                    background-color: deepskyblue;
+                    height: 50px;
+                }
+                
+                .green {
+                    background-color: greenyellow;
+                    height: 50px;
+                }
+                
+                .orange {
+                    background-color: orange;
+                    height: 600px;
+                    padding-bottom: 10px;
+                }
+                
+                .gray {
+                    background-color: lightgray;
+                    height: 160px;
+                    margin: auto;
+                }
+                
+                .red {
+                    background-color: maroon;
+                    height: 600px;
+                }
+                
+                .purp {
+                    background-color: lightgray;
+                    height: 160px;
+                    margin: auto;
+                }
+                
+                @media (min-width: 576px) { 
+                    .green {
+                        height: 150px;
+                    }
+                    
+                    .gray, .purp {
+                        height: 150px;
+                        width: 130px;
+                        margin-left: 12px;
+                    }
+                    
+                    .orange {
+                        padding: auto;
+                        padding-left: 20px;
+                    }
+                    
+                }
+                
+                @media (min-width: 992px) { 
+                    
+                    .gray {
+                        height: 100px;
+                        margin-left: 20px;
+                    }
+                    
+                    .red, .orange, .green {
+                        height: 800px;
+                    }
+                    
+                    .purp {
+                        height: 100px;
+                        background-color: plum;
+                    }
+                }
+
+                
+            </style>
+        
+        </head>
+        
+        
+        <body>
+            
+            <div class="container">
+            
+                <div class="row no-gutters">
+                
+                    <div class="blue col-12"> </div>
+                
+                </div>
+                
+                <div class="row no-gutters">
+                    
+                    <div class="green col-12 col-lg-3"></div>
+                    
+                    <div class="row no-gutters orange col-12 col-md-6 col-lg-6">
+                    
+                        <div class="gray col-5 col-lg-3"></div>
+                        <div class="purp col-5 col-lg-7"></div>  
+                        <div class="gray col-5 col-lg-3"></div>
+                        <div class="purp col-5 col-lg-7"></div>  
+                        <div class="gray col-5 col-lg-3"></div>
+                        <div class="purp col-5 col-lg-7"></div>  
+                        <div class="gray col-5 col-lg-3 d-none d-lg-block"></div>
+                        <div class="purp col-5 col-lg-7 d-none d-lg-block"></div> 
+                        <div class="gray col-5 col-lg-3 d-none d-lg-block"></div>
+                        <div class="purp col-5 col-lg-7 d-none d-lg-block"></div> 
+                        <div class="gray col-5 col-lg-3 d-none d-lg-block"></div>
+                        <div class="purp col-5 col-lg-7 d-none d-lg-block"></div> 
+                     
+                    </div>
+                    
+                    <div class="red col-12 col-md-6 col-lg-3"></div>
+                
+                
+                </div>
+                
+            </div>
+            
+        </body>
+        
+    </html>
