@@ -1,0 +1,84 @@
+.body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    height: 20vw;
+    background-image: linear-gradient(to right, #16755D, #00b461);
+    padding-top: 2px;
+    padding-bottom: auto;
+}
+
+.header img {
+    max-height: 20vw;
+}
+
+.titletxt {
+    padding-top: 1vw;
+    margin-left: -9.5vw;
+    transform: rotate(5deg);
+}
+
+.header h1 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: #21FF72;
+    text-shadow: 2px -1px #000, 3px -2px #000, 3px -3px #000;
+    font-size: 8vw;
+    line-height: 7.5vw;
+    text-align: center;
+}
+
+.whatsnew {
+    background-image: linear-gradient(to bottom left, #180357, #570f8d);
+    height: auto;
+}
+
+.whatsnew h2 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: #983EEB;
+    text-shadow: 2px -1px #000, 3px -2px #000, 3px -3px #000;
+    font-size: 8vw;
+    line-height: 7.5vw;
+    text-align: right;
+    margin-top: -1vw;
+    margin-right: -1vw;
+}
+
+.whatsnew a {
+    font-family: 'Open Sans', sans-serif;
+    color: #21FF72;
+    font-weight: 900;
+    text-decoration: none;
+    text-shadow: 2px -1px #000, 3px -2px #000, 3px -3px #000;
+    font-size: 6vw;
+    margin-left: -2vw;
+}
+
+a.btn:hover {
+    color: white;
+}
+
+.whatsnew img {
+    height: 12vw;
+    margin-left: -14vw;
+    margin-top: -1.5vw;
+}
+
+.infobox {
+    background-color: #FFF;
+    box-shadow: 15px 15px #000;
+    height: auto;
+    margin-left: 1vw;
+    padding: 1vw;
+    margin-bottom: 2vw;
+}
+
+#mudokonpops {
+    height: 20vw;
+    background-image: linear-gradient(to top, #000, #212121);
+}
+
+.products {
+    background-image: linear-gradient(to right, #16755D, #00b461);
+    height: auto;
+}
